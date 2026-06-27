@@ -3,7 +3,7 @@ import './Experience.css';
 
 const ACHIEVEMENTS = [
   'Developed cross-platform mobile applications using Flutter and React Native, utilizing MobX and Redux for state management, maintaining a native-level experience for a huge number of active iOS and Android users.',
-  'Worked independently to drive front-end technical development for a classified ads platform and the FishingKaki Market, taking full ownership of UI/UX decisions by blending modern minimalist and material design principles with rich LottieFiles animations and extensive icon sets.',
+  'Worked independently to drive front-end technical development for the FishingKaki Marketplace, an ecommerce site, taking full ownership of UI/UX decisions by blending modern minimalist and material design principles with rich LottieFiles animations and extensive icon sets.',
   'Integrated robust backend systems, incorporating REST and GraphQL APIs, webhooks, Firebase, and IMGIX, while extensively leveraging Google services such as Google Maps, Geocoding, Map Autocomplete, and Google Auth.',
   'Implemented diverse, secure payment gateways, including Stripe, PayPal, Google Pay, Apple Pay, and PayNow, to facilitate frictionless e-commerce transactions across the platform.',
   'Integrated third-party courier service systems, including EasyParcel and NinjaVan, to automate and streamline shipping and logistics workflows.',
