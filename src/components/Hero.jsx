@@ -50,16 +50,16 @@ export default function Hero() {
           <motion.div className="hero__cta" variants={itemVariants}>
             <a href="#contact" className="btn btn-primary" id="hero-contact-btn">
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                <polyline points="22,6 12,13 2,6"/>
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
               </svg>
               Get in touch
             </a>
             <a href="#about" className="btn btn-outline" id="hero-about-btn">
               Learn more
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <line x1="5" y1="12" x2="19" y2="12"/>
-                <polyline points="12,5 19,12 12,19"/>
+                <line x1="5" y1="12" x2="19" y2="12" />
+                <polyline points="12,5 19,12 12,19" />
               </svg>
             </a>
           </motion.div>
@@ -67,7 +67,6 @@ export default function Hero() {
           <motion.div className="hero__stats" variants={itemVariants}>
             {[
               { value: '8+', label: 'Years Experience' },
-              { value: '1K+', label: 'Users Reached' },
               { value: '99.9%', label: 'Uptime Delivered' },
             ].map(stat => (
               <div key={stat.label} className="hero__stat">

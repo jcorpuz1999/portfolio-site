@@ -23,10 +23,8 @@ export default function About() {
             <div className="divider" />
             <p className="about__bio">
               Detail-oriented Frontend Software Engineer with <strong>8 years of professional
-              experience</strong> specialising in mobile and web development. Passionate about building
-              seamless, user-centric applications using Flutter and React Native. Highly skilled in
-              bringing minimalist, material design principles to life through clean code and
-              responsive interfaces.
+              experience</strong> specializing in mobile and web development. Passionate about building
+              seamless, user-centric applications using Flutter and React Native. Highly skilled in working independently to bring a combination of minimalist and material design principles to life through clean code and responsive interfaces.
             </p>
             <p className="about__bio">
               Dedicated to collaborative problem-solving and guiding projects from initial
