@@ -5,22 +5,32 @@ const SKILLS = [
   {
     category: 'Languages & Frameworks',
     icon: '⚡',
-    items: ['ReactJS (Redux)', 'React Native', 'Flutter', 'Dart', 'JavaScript (ES6)', 'HTML5', 'CSS3', 'Laravel Blade'],
+    items: ['JavaScript (ES6)', 'Flutter', 'React Native', 'ReactJS', 'Dart', 'CSS3', 'Bootstrap', 'Laravel Blade'],
   },
   {
-    category: 'Backend & Integrations',
-    icon: '🔗',
-    items: ['Stripe Payment Gateway', 'REST APIs', 'Firebase'],
+    category: 'State Management',
+    icon: '🔄',
+    items: ['Redux (React)', 'MobX (Flutter)'],
+  },
+  {
+    category: 'Backend, APIs & Cloud',
+    icon: '☁️',
+    items: ['REST & GraphQL APIs', 'Webhooks', 'Firebase', 'Google Cloud Services', 'IMGIX', 'Os Class'],
+  },
+  {
+    category: 'Payments & Logistics',
+    icon: '💳',
+    items: ['Stripe', 'PayPal', 'Google Pay', 'Apple Pay', 'PayNow', 'EasyParcel', 'NinjaVan'],
   },
   {
     category: 'Tools & Deployment',
     icon: '🛠',
-    items: ['Git', 'TestFlight', 'Google Play Console', 'Vite', 'npm'],
+    items: ['Git/GitHub', 'Terminal Commands', 'App Store', 'Google Play Console', 'TestFlight', 'Task Automation'],
   },
   {
     category: 'Design & Architecture',
     icon: '🎨',
-    items: ['Minimalist UI/UX', 'Material Design', 'Cross-Platform Architecture', 'State Management', 'Responsive Design'],
+    items: ['Minimalist & Material UI/UX', 'Independent Front-End Architecture', 'LottieFiles Animations', 'Icon Sets'],
   },
 ];
 

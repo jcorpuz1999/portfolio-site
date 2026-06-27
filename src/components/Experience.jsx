@@ -2,12 +2,14 @@ import { motion } from 'framer-motion';
 import './Experience.css';
 
 const ACHIEVEMENTS = [
-  'Developed cross-platform mobile apps (Flutter/React Native), reducing development time by 50% while maintaining a native-level experience for 1,000+ iOS and Android users.',
-  'Managed the full project lifecycle to successfully launch a classified ads platform in 2021, scaling to 640 active users within the first 3 months.',
-  'Led technical development for the FishingKaki Market e-commerce platform, ensuring 99.9% uptime across dual buyer/seller applications.',
-  'Engineered clean, state-driven front-end architectures using ReactJS (Redux) and Laravel Blade, decreasing page load times by 80%.',
-  'Implemented secure Stripe payment processing, facilitating SGD 1,000 in seamless, fraud-free transactions during initial rollout.',
-  'Streamlined the CI/CD deployment pipeline, reducing app release cycles by 85% across TestFlight and Google Play Console.',
+  'Developed cross-platform mobile applications using Flutter and React Native, utilizing MobX and Redux for state management, maintaining a native-level experience for a huge number of active iOS and Android users.',
+  'Worked independently to drive front-end technical development for a classified ads platform and the FishingKaki Market, taking full ownership of UI/UX decisions by blending modern minimalist and material design principles with rich LottieFiles animations and extensive icon sets.',
+  'Integrated robust backend systems, incorporating REST and GraphQL APIs, webhooks, Firebase, and IMGIX, while extensively leveraging Google services such as Google Maps, Geocoding, Map Autocomplete, and Google Auth.',
+  'Implemented diverse, secure payment gateways, including Stripe, PayPal, Google Pay, Apple Pay, and PayNow, to facilitate frictionless e-commerce transactions across the platform.',
+  'Integrated third-party courier service systems, including EasyParcel and NinjaVan, to automate and streamline shipping and logistics workflows.',
+  'Managed advanced version control workflows using Git and GitHub via terminal commands, efficiently executing branch creation, pulling from master, stashing/applying changes, checkouts, pushing, and pull requests.',
+  'Handled end-to-end app distribution and deployment cycles, successfully releasing applications to the Apple App Store, Google Play Console, and TestFlight.',
+  'Created simple, everyday task automation scripts to streamline repetitive workflows and improve personal development productivity.',
 ];
 
 const fadeUp = {
@@ -64,7 +66,7 @@ export default function Experience() {
               </ul>
 
               <div className="experience__tags">
-                {['Flutter', 'React Native', 'ReactJS', 'Redux', 'Stripe', 'Laravel', 'CI/CD'].map(t => (
+                {['Flutter', 'React Native', 'MobX', 'Redux', 'GraphQL', 'Firebase', 'Google Cloud', 'Payments', 'Logistics'].map(t => (
                   <span key={t} className="chip">{t}</span>
                 ))}
               </div>
